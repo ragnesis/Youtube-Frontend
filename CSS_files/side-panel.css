@@ -1,0 +1,516 @@
+p{
+    margin: 0;
+}
+.side-panel{
+    display: flex;
+    flex-direction: column;
+    align-items: left;
+    text-align: left;
+    padding: 0 12.5px 20px;
+    width: 250px;
+    /*background-color: azure;*/
+    position: fixed;
+    top: 50px;
+    bottom: 0;
+
+}
+.side-panel:hover{
+    overflow-y:scroll;
+}
+
+.top{
+    margin-top: 20px;
+    border-bottom: solid;
+    border-width: 1px;
+
+}
+.home{
+    display: flex;
+    justify-content: left;
+    align-items: center;
+    padding: 15px 8px;
+}
+.home:hover{
+    background-color: gray;
+    border-radius: 5px;
+}
+.fa-house{
+    font-size: 22px;
+    margin-right: 24px;
+}
+.name{
+    font-size: 16px;
+    font-weight: 500;
+    text-align: rigth;
+}
+
+.shorts{
+    display: flex;
+    justify-content: left;
+    align-items: center;
+    padding: 15px 8px;
+}
+.shorts:hover{
+    background-color: gray;
+    border-radius: 5px;
+}
+.shorts-icon{
+    width: 28px;
+    height: 30px;
+    margin-right: 20px;
+    /*filter: invert(100%);*/
+}
+
+.Subscriptions{
+    display: flex;
+    justify-content: left;
+    align-items: center;
+    padding: 15px 8px;
+}
+.Subscriptions:hover{
+    background-color: gray;
+    border-radius: 5px;
+}
+.Subscriptions-icon{
+    width: 28px;
+    height: 30px;
+    margin-right: 20px;
+}
+
+.side-panel-name{
+    font-weight: bold;
+    margin-left: 5px;
+    margin-bottom: 15px;
+}
+.you{
+    margin-top: 20px;
+    border-bottom: solid;
+    border-width: 1px;
+}
+.your-channel{
+    display: flex;
+    justify-content: left;
+    align-items: center;
+    padding: 15px 8px;
+}
+.your-channel:hover{
+    background-color: gray;
+    border-radius: 5px;
+}
+.fa-user{
+    font-size: 22px;
+    margin-right: 24px;
+}
+
+.history{
+    display: flex;
+    justify-content: left;
+    align-items: center;
+    padding: 15px 8px;
+}
+.history:hover{
+    background-color: gray;
+    border-radius: 5px;
+}
+.fa-clock-rotate-left{
+    font-size: 22px;
+    margin-right: 24px;
+}
+
+.playlist{
+    display: flex;
+    justify-content: left;
+    align-items: center;
+    padding: 15px 8px;
+}
+.playlist:hover{
+    background-color: gray;
+    border-radius: 5px;
+}
+.playlist-icon{
+    width: 28px;
+    height: 30px;
+    margin-right: 20px;
+}
+
+.your-video{
+    display: flex;
+    justify-content: left;
+    align-items: center;
+    padding: 15px 8px;
+}
+.your-video:hover{
+    background-color: gray;
+    border-radius: 5px;
+}
+.video-icon{
+    width: 28px;
+    height: 30px;
+    margin-right: 20px;
+}
+
+.watch-later{
+    display: flex;
+    justify-content: left;
+    align-items: center;
+    padding: 15px 8px;
+}
+.watch-later:hover{
+    background-color: gray;
+    border-radius: 5px;
+}
+.fa-clock{
+    font-size: 22px;
+    margin-right: 24px;
+}
+
+.liked-videos{
+    display: flex;
+    justify-content: left;
+    align-items: center;
+    padding: 15px 8px;
+}
+.liked-videos:hover{
+    background-color: gray;
+    border-radius: 5px;
+}
+.fa-thumbs-up{
+    font-size: 22px;
+    margin-right: 24px;
+}
+
+
+.subcriptions{
+    margin-top: 20px;
+    border-bottom: solid;
+    border-width: 1px;
+}
+.all-subcription{
+    display: flex;
+    justify-content: left;
+    align-items: center;
+    padding: 15px 8px;
+}
+.all-subcription:hover{
+    background-color: gray;
+    border-radius: 5px;
+}
+
+.fa-list{
+    font-size: 22px;
+    margin-right: 24px;
+}
+
+.explore{
+    margin-top: 20px;
+    border-bottom: solid;
+    border-width: 1px;
+}
+.trending{
+    display: flex;
+    justify-content: left;
+    align-items: center;
+    padding: 15px 8px;
+}
+.trending:hover{
+    background-color: gray;
+    border-radius: 5px;
+}
+.fa-arrow-trend-up{
+    font-size: 22px;
+    margin-right: 24px;
+}
+.shopping{
+    display: flex;
+    justify-content: left;
+    align-items: center;
+    padding: 15px 8px;
+}
+.shopping:hover{
+    background-color: gray;
+    border-radius: 5px;
+}
+.fa-bag-shopping{
+    font-size: 22px;
+    margin-right: 24px;
+}
+.music{
+    display: flex;
+    justify-content: left;
+    align-items: center;
+    padding: 15px 8px;
+}
+.music:hover{
+    background-color: gray;
+    border-radius: 5px;
+}
+.fa-music{
+    font-size: 22px;
+    margin-right: 24px;
+}
+.movie{
+    display: flex;
+    justify-content: left;
+    align-items: center;
+    padding: 15px 8px;
+}
+.movie:hover{
+    background-color: gray;
+    border-radius: 5px;
+}
+.fa-clapperboard{
+    font-size: 22px;
+    margin-right: 24px;
+}
+.stream{
+    display: flex;
+    justify-content: left;
+    align-items: center;
+    padding: 15px 8px;
+}
+.stream:hover{
+    background-color: gray;
+    border-radius: 5px;
+}
+.fa-wifi{
+    font-size: 22px;
+    margin-right: 24px;
+}
+.gaming{
+    display: flex;
+    justify-content: left;
+    align-items: center;
+    padding: 15px 8px;
+}
+.gaming:hover{
+    background-color: gray;
+    border-radius: 5px;
+}
+.fa-gamepad{
+    font-size: 22px;
+    margin-right: 24px;
+}
+.news{
+    display: flex;
+    justify-content: left;
+    align-items: center;
+    padding: 15px 8px;
+}
+.news:hover{
+    background-color: gray;
+    border-radius: 5px;
+}
+.fa-newspaper{
+    font-size: 22px;
+    margin-right: 24px;
+}
+.sports{
+    display: flex;
+    justify-content: left;
+    align-items: center;
+    padding: 15px 8px;
+}
+.sports:hover{
+    background-color: gray;
+    border-radius: 5px;
+}
+.fa-trophy{
+    font-size: 22px;
+    margin-right: 24px;
+}
+.courses{
+    display: flex;
+    justify-content: left;
+    align-items: center;
+    padding: 15px 8px;
+}
+.courses:hover{
+    background-color: gray;
+    border-radius: 5px;
+}
+.fa-lightbulb{
+    font-size: 22px;
+    margin-right: 24px;
+}
+.fasion{
+    display: flex;
+    justify-content: left;
+    align-items: center;
+    padding: 15px 8px;
+}
+.fasion:hover{
+    background-color: gray;
+    border-radius: 5px;
+}
+.fa-shirt{
+    font-size: 22px;
+    margin-right: 24px;
+}
+
+.podcast{
+    display: flex;
+    justify-content: left;
+    align-items: center;
+    padding: 15px 8px;
+}
+.podcast:hover{
+    background-color: gray;
+    border-radius: 5px;
+}
+.fa-podcast{
+    font-size: 22px;
+    margin-right: 24px;
+}
+
+.more-from-youtube{
+    margin-top: 20px;
+    border-bottom: solid;
+    border-width: 1px;
+}
+.premium{
+    display: flex;
+    justify-content: left;
+    align-items: center;
+    padding: 15px 8px;
+}
+.premium:hover{
+    background-color: gray;
+    border-radius: 5px;
+}
+.premium .fa-youtube{
+    font-size: 22px;
+    margin-right: 24px;
+}
+
+.youtube-studio{
+    display: flex;
+    justify-content: left;
+    align-items: center;
+    padding: 15px 8px;
+}
+.youtube-studio:hover{
+    background-color: gray;
+    border-radius: 5px;
+}
+.youtube-studio-icon{
+    width: 28px;
+    height: 30px;
+    margin-right: 20px;
+}
+
+.youtube-music{
+    display: flex;
+    justify-content: left;
+    align-items: center;
+    padding: 15px 8px;
+}
+.youtube-music:hover{
+    background-color: gray;
+    border-radius: 5px;
+}
+.youtube-music-icon{
+    width: 28px;
+    height: 30px;
+    margin-right: 20px;
+}
+
+.youtube-kids{
+    display: flex;
+    justify-content: left;
+    align-items: center;
+    padding: 15px 8px;
+}
+.youtube-kids:hover{
+    background-color: gray;
+    border-radius: 5px;
+}
+.youtube-kids-icon{
+    width: 28px;
+    height: 30px;
+    margin-right: 20px;
+}
+
+.bottom{
+    margin-top: 20px;
+    border-bottom: solid;
+    border-width: 1px;
+}
+.settings{
+    display: flex;
+    justify-content: left;
+    align-items: center;
+    padding: 15px 8px;
+}
+.settings:hover{
+    background-color: gray;
+    border-radius: 5px;
+}
+.fa-gear{
+    font-size: 22px;
+    margin-right: 24px;
+}
+
+.report-history{
+    display: flex;
+    justify-content: left;
+    align-items: center;
+    padding: 15px 8px;
+}
+.report-history:hover{
+    background-color: gray;
+    border-radius: 5px;
+}
+.fa-flag{
+    font-size: 22px;
+    margin-right: 24px;
+}
+
+.help{
+    display: flex;
+    justify-content: left;
+    align-items: center;
+    padding: 15px 8px;
+}
+.help:hover{
+    background-color: gray;
+    border-radius: 5px;
+}
+.fa-question{
+    font-size: 22px;
+    margin-right: 24px;
+}
+
+.send-feedback{
+    display: flex;
+    justify-content: left;
+    align-items: center;
+    padding: 15px 8px;
+}
+.send-feedback:hover{
+    background-color: gray;
+    border-radius: 5px;
+}
+.fa-message{
+    font-size: 22px;
+    margin-right: 24px;
+}
+
+.last{
+    margin-top: 20px; 
+}
+.guide-primary{
+    font-size: 14px;
+}
+.guide-secondary{
+    font-size: 14px;
+}
+a{
+    color: rgb(72, 72, 72);
+    margin-right: 5px;
+}
+.copyright-statement{
+    color: rgb(164, 164, 164);
+    font-size: 12px;
+    margin-top: 16px;
+    display: flex;
+}
